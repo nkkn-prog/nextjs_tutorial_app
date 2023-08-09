@@ -5,6 +5,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className={styles.container}>
+      {/* このHeadはNext.js内に組み込まれているReactのComponent */}
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
